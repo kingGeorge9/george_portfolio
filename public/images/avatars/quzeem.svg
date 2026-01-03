@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <!-- Face -->
+  <circle cx="100" cy="92" r="44" fill="#2b1f16" />
+  <!-- Hair / beard -->
+  <path d="M60 72c0-28 80-28 80 0v20c0 0-12 36-40 36s-40-36-40-36V72z" fill="#1b1210"/>
+  <rect x="60" y="116" width="80" height="16" rx="8" fill="#1b1210"/>
+  <!-- Eyes -->
+  <ellipse cx="82" cy="92" rx="6" ry="4" fill="#fff"/>
+  <ellipse cx="118" cy="92" rx="6" ry="4" fill="#fff"/>
+  <circle cx="82" cy="92" r="2" fill="#000"/>
+  <circle cx="118" cy="92" r="2" fill="#000"/>
+  <!-- Smile -->
+  <path d="M78 110c6 6 24 6 30 0" stroke="#000" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- Body -->
+  <rect x="40" y="132" width="120" height="56" rx="12" fill="#111827"/>
+  <text x="100" y="166" font-size="16" font-family="sans-serif" fill="#fff" text-anchor="middle">Engr. Q.</text>
+</svg>
