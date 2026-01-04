@@ -372,7 +372,7 @@ const Portfolio = () => {
     {
       text: "Professional, timely and talented. Every project deliverable was pixel-perfect and beyond what we imagined.",
       author: "Barr. Esther Linuson",
-      role: "Founder, Linuson & Gold Attorneys",
+      role: "Founder, Caplan & Gold Attorneys",
     },
   ];
 
@@ -669,21 +669,13 @@ const Portfolio = () => {
 
               <div className="modal-gallery">
                 {currentCategory.images.map((image, index) => (
-                  <div
-                    key={index}
-                    className="gallery-item"
-                    onClick={() => setFullscreenImage(image)}
-                  >
+                  <div key={index} className="gallery-item">
                     <img
                       src={image}
                       alt={`${currentCategory.name} ${index + 1}`}
                       className="gallery-image"
                       loading="lazy"
                     />
-                    <div className="gallery-item-overlay">
-                      <ExternalLink size={24} />
-                      <span>View Full Size</span>
-                    </div>
                   </div>
                 ))}
               </div>
@@ -989,7 +981,7 @@ const Portfolio = () => {
               <span>georgedesignedit</span>
             </div>
             <p className="footer-text">
-              © 2026 George. Crafted with passion & precision.
+              © 2025 George. Crafted with passion & precision.
             </p>
           </div>
         </div>
