@@ -1755,14 +1755,6 @@ textarea:focus-visible {
   gap: var(--spacing-md);
 }
 
-.testimonial-avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--color-border);
-}
-
 .testimonial-name {
   font-weight: 600;
   margin-bottom: 0.25rem;
@@ -1771,6 +1763,30 @@ textarea:focus-visible {
 .testimonial-role {
   font-size: 0.875rem;
   color: var(--color-text-muted);
+}
+
+.testimonial-image-section {
+  margin-top: var(--spacing-3xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-xl);
+}
+
+.testimonial-showcase-image {
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--color-border);
+  box-shadow: 0 20px 60px rgba(168, 85, 247, 0.15);
+  transition: all var(--transition-base);
+}
+
+.testimonial-showcase-image:hover {
+  transform: scale(1.02);
+  border-color: var(--color-accent);
+  box-shadow: 0 25px 80px rgba(168, 85, 247, 0.25);
 }
 
 

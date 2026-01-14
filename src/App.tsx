@@ -785,6 +785,15 @@ const Portfolio = () => {
                 </div>
               ))}
             </div>
+
+            <div className="testimonial-image-section">
+              <img
+                src={`${import.meta.env.BASE_URL}testimonal.jpg`}
+                alt="Client Testimonial"
+                className="testimonial-showcase-image"
+                onError={(e) => console.error("Image failed to load:", e)}
+              />
+            </div>
           </div>
         </div>
       </section>
